@@ -1,0 +1,92 @@
+body {
+    font-family: 'Sawarabi Gothic', sans-serif;
+    background-color: #02A0E9;
+    margin: 0;
+    height: 1000;
+    background-color: white;
+}
+header {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+}
+header nav ul li {
+    padding: 10px 40px;
+    font-size: 20px;
+
+   
+}
+header nav ul li:hover{
+    background-color: white;
+    border-radius: 30px;
+    color: #404040;
+
+  }
+header nav ul li a {
+    text-decoration: none;
+    color: #404040;
+    cursor: pointer;
+ 
+}
+header nav ul div{
+  padding: 50;
+}
+h1 {
+    text-align: center;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+section input {
+      width: 90%;
+      margin: 0 10px 30px;
+      padding: 8px 0;
+      border: 0 none;
+      outline: none;
+      border-bottom: solid 2.5px rgb(40,95,202);
+      font-size: 10;
+
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.log {
+  font-size: 15px;
+}
+.botaolog {
+  cursor: pointer;
+  padding: 20px 40%;
+  border: none;
+  outline: none;
+  background-color: rgb(40,95,202);
+  border-radius: 50px;
+  color: white;
+  font-size: 15px;
+}
+.senha {
+  cursor: pointer;
+  border: none;
+  color: #474747;
+  background: none;
+  font-size: 20px;
+  font-weight: bold;
+}

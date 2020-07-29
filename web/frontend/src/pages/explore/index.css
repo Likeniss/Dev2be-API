@@ -1,0 +1,78 @@
+.headleft {
+    padding-right: 50px ;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.headleft a {
+
+    padding: 3px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: #E61D20;
+    border: solid #E61D20 3px;
+
+}
+.headright {
+    margin-left: 50%;
+    margin-top: 50px;
+
+}
+.headright a {
+    padding: 3px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: #E61D20;
+    border: solid #E61D20 3px;
+}
+input, textarea, select {
+    outline: 0;
+}
+#divbuscar {
+    margin: 50px 0 0 50px;
+    background-color:#ffffff;
+    border:solid #ffffff;
+    border-radius:30px;
+    width:400px;
+    height:32px;
+}
+#buscar {
+    float:left;
+    background-color:transparent;
+    padding-left:5px; 
+    color: #646464;
+    font:18px ;
+    font-style: normal;
+    font-weight: bold;
+    border:0;
+    height:32px;
+    width:300px;
+}
+.guia {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    width: 500px;
+    padding: 5px;
+    border-radius: 20px;
+    color: #555555;
+    background-color: rgb(129, 245, 210);
+ }
+
+.dados {
+    margin-left: 20px;
+    
+}
+.turista {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    width: 500px;
+    padding: 5px;
+    border-radius: 20px;
+    color: #555555;
+    background-color: rgb(129, 245, 210);
+ }
